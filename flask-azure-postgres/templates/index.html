@@ -1,0 +1,13 @@
+<h2>Employees</h2>
+<form action="/add" method="post">
+    Name: <input name="name">
+    Position: <input name="position">
+    Salary: <input name="salary">
+    <button type="submit">Add</button>
+</form>
+
+<ul>
+  {% for emp in employees %}
+    <li>{{ emp.name }} - {{ emp.position }} - ${{ emp.salary }}</li>
+  {% endfor %}
+</ul>
