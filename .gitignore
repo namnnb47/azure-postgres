@@ -1,1 +1,5 @@
 ./azure-postgres-terraform/.terraform/
+./azure-postgres-terraform/.terraform/*
+./azure-postgres-terraform/terraform.tfstate.backup
+./azure-postgres-terraform/terraform.tfstate
+./azure-postgres-terraform/.terraform.lock.hcl
